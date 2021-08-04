@@ -35,7 +35,7 @@ jobs:
           path: './logs'
 
       - uses: actions/checkout@master
-      - uses: matt-ball/newman-action@master --alluredir=allure-results
+      - uses: matt-ball/newman-action@master
         with:
           collection: ./postman-collections/employee_collection_28
           environment: ./postman-collections/employee28.postman_environment
@@ -43,7 +43,7 @@ jobs:
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
-        continue-on-error: true
+        continue-on-error: false
         with:
           ref: gh-pages
           path: gh-pages

@@ -1,0 +1,73 @@
+{
+  "uid" : "7dbd902ac30f6c68",
+  "name" : "employees from env middleName",
+  "historyId" : "bcdff0c3077e0260ff5365eb8d7ae69a",
+  "time" : {
+    "start" : 1628116292029,
+    "stop" : 1628116292094,
+    "duration" : 65
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/employees/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Corene_Huel45\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Nick\",\r\n    \"lastName\": \"Zboncak\",\r\n    \"middleName\": \"Lorenzo\",\r\n    \"emailId\": \"Chelsea_Kutch@yahoo.com\",\r\n    \"dayOfBirth\": \"2021-08-04\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"Principal Mobility Technician\",\"description\":\"Product\",\"addedAt\":\"2021-08-04T22:31:31.97\",\"id\":1},\"userName\":\"Corene_Huel45\",\"firstName\":\"Nick\",\"middleName\":\"Lorenzo\",\"lastName\":\"Zboncak\",\"emailId\":\"Chelsea_Kutch@yahoo.com\",\"dayOfBirth\":\"2021-08-04\"} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/employees/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Corene_Huel45\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Nick\",\r\n    \"lastName\": \"Zboncak\",\r\n    \"middleName\": \"Lorenzo\",\r\n    \"emailId\": \"Chelsea_Kutch@yahoo.com\",\r\n    \"dayOfBirth\": \"2021-08-04\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"Principal Mobility Technician\",\"description\":\"Product\",\"addedAt\":\"2021-08-04T22:31:31.97\",\"id\":1},\"userName\":\"Corene_Huel45\",\"firstName\":\"Nick\",\"middleName\":\"Lorenzo\",\"lastName\":\"Zboncak\",\"emailId\":\"Chelsea_Kutch@yahoo.com\",\"dayOfBirth\":\"2021-08-04\"} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628116292087,
+        "stop" : 1628116292087,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "382878ebf75fd249",
+      "name" : "pre_request",
+      "source" : "382878ebf75fd249.txt",
+      "type" : "text/plain",
+      "size" : 135
+    }, {
+      "uid" : "6c1d70d20e4adfe4",
+      "name" : "test_scrpt",
+      "source" : "6c1d70d20e4adfe4.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "employees/{{employee_id}}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dbd902ac30f6c68.json",
+  "parameterValues" : [ ]
+}

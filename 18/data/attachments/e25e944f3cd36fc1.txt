@@ -1,0 +1,3 @@
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("[]");
+});

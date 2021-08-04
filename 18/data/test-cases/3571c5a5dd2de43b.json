@@ -1,0 +1,67 @@
+{
+  "uid" : "3571c5a5dd2de43b",
+  "name" : "employees from env",
+  "historyId" : "0ae5c82df8cbf64220a9efcf6143dcd5",
+  "time" : {
+    "start" : 1628116291926,
+    "stop" : 1628116291956,
+    "duration" : 30
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> [{\"id\":1,\"jobDescription\":{\"title\":\"Future Factors Engineer\",\"description\":\"Direct\",\"addedAt\":\"2021-08-04T22:31:31.511\",\"id\":1},\"userName\":\"Myrl.Howell\",\"firstName\":\"Jamel\",\"middleName\":\"Francesco\",\"lastName\":\"West\",\"emailId\":\"Dixie_Durgan96@gmail.com\",\"dayOfBirth\":\"2021-08-04\"}] </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> [{\"id\":1,\"jobDescription\":{\"title\":\"Future Factors Engineer\",\"description\":\"Direct\",\"addedAt\":\"2021-08-04T22:31:31.511\",\"id\":1},\"userName\":\"Myrl.Howell\",\"firstName\":\"Jamel\",\"middleName\":\"Francesco\",\"lastName\":\"West\",\"emailId\":\"Dixie_Durgan96@gmail.com\",\"dayOfBirth\":\"2021-08-04\"}] </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628116291952,
+        "stop" : 1628116291952,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2f91a9890e6758cd",
+      "name" : "test_scrpt",
+      "source" : "2f91a9890e6758cd.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "employees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3571c5a5dd2de43b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,2 @@
+const moment = require('moment');
+pm.environment.set("dayOfBirth", moment().format("YYYY-MM-DD"));

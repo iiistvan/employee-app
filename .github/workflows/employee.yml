@@ -35,14 +35,14 @@ jobs:
           path: './logs'
           
       - name: allure install
-        run: npm install -g newman-reporter-allure
+        run: npm install -g newman-reporter-allure |
+             newman run ./postman-collections/employee_collection_28 -e ./postman-collections/employee28.postman_environment -r allure --reporter-allure-export ./allure-results
 
-
-      - uses: actions/checkout@master
-      - uses: matt-ball/newman-action@master
-        with:
-          collection: ./postman-collections/employee_collection_28
-          environment: ./postman-collections/employee28.postman_environment
+#      - uses: actions/checkout@master
+#      - uses: matt-ball/newman-action@master
+#        with:
+#          collection: ./postman-collections/employee_collection_28
+#          environment: ./postman-collections/employee28.postman_environment
 
       - name: Get Allure history
         uses: actions/checkout@v2

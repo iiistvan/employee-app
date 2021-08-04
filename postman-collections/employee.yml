@@ -33,21 +33,25 @@ jobs:
         with:
           name: docker-logs
           path: './logs'
+          
+      - name: allure install
+        run: npm install -g newman-reporter-allure |
+             newman run ./postman-collections/employee_collection_28 -e ./postman-collections/employee28.postman_environment -r allure --reporter-allure-export ./allure-results
 
-      - uses: actions/checkout@master
-      - uses: matt-ball/newman-action@master
-        with:
-          collection: ./postman-collections/employee_collection_28
-          environment: ./postman-collections/employee28.postman_environment
+#      - uses: actions/checkout@master
+#      - uses: matt-ball/newman-action@master
+#        with:
+#          collection: ./postman-collections/employee_collection_28
+#          environment: ./postman-collections/employee28.postman_environment
 
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
-        continue-on-error: true
+        continue-on-error: false
         with:
           ref: gh-pages
           path: gh-pages
-
+          
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
@@ -61,6 +65,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages2
+          PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
 

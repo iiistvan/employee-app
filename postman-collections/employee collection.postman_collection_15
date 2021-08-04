@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ad746927-1b3c-4471-bdc6-6fe7014a7266",
+		"_postman_id": "3352c6cf-65d2-4e2f-9bba-720d0b3b8081",
 		"name": "employee collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -424,6 +424,19 @@
 		},
 		{
 			"name": "jobdescriptions",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"auth": {
 					"type": "basic",

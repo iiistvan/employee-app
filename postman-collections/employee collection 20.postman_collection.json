@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "41909bc1-8015-440a-b7bf-3524b921dc3f",
-		"name": "employee collection 24",
+		"_postman_id": "ecc0cf67-73b1-4889-ac85-f67c58e9b59d",
+		"name": "employee collection 20",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -691,6 +691,19 @@
 		},
 		{
 			"name": "employees from env",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"[]\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},

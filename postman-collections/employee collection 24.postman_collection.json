@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "41909bc1-8015-440a-b7bf-3524b921dc3f",
+		"_postman_id": "e239678a-1c60-4f74-bd82-e3481fb0709c",
 		"name": "employee collection 24",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -105,15 +105,6 @@
 						],
 						"type": "text/javascript"
 					}
-				},
-				{
-					"listen": "prerequest",
-					"script": {
-						"exec": [
-							""
-						],
-						"type": "text/javascript"
-					}
 				}
 			],
 			"protocolProfileBehavior": {
@@ -177,16 +168,6 @@
 						],
 						"type": "text/javascript"
 					}
-				},
-				{
-					"listen": "prerequest",
-					"script": {
-						"exec": [
-							"const moment = require('moment');\r",
-							"pm.environment.set(\"dayOfBirth\", moment().format(\"YYYY-MM-DD\"));"
-						],
-						"type": "text/javascript"
-					}
 				}
 			],
 			"protocolProfileBehavior": {
@@ -212,7 +193,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"userName\": \"{{userName2}}\",\r\n    \"jobDescriptionId\": {{jobDescriptionId}},\r\n    \"firstName\": \"{{firstName}}\",\r\n    \"lastName\": \"{{lastName}}\",\r\n    \"middleName\": \"{{middleName}}\",\r\n    \"emailId\": \"{{emailId}}\",\r\n    \"dayOfBirth\": \"{{dayOfBirth}}\"\r\n}",
+					"raw": "{\r\n    \"userName\": \"{{userName}}\",\r\n    \"jobDescriptionId\": {{jobDescriptionId}},\r\n    \"firstName\": \"{{firstName}}\",\r\n    \"lastName\": \"{{lastName}}\",\r\n    \"middleName\": \"{{middleName}}\",\r\n    \"emailId\": \"{{emailId}}\",\r\n    \"dayOfBirth\": \"{{dayOfBirth}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -414,9 +395,7 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"pm.environment.get(\"employee_id\");\r",
-							"const moment = require('moment');\r",
-							"pm.environment.set(\"dayOfBirth\", moment().format(\"YYYY-MM-DD\"));"
+							"pm.environment.get(\"employee_id\");"
 						],
 						"type": "text/javascript"
 					}
@@ -445,7 +424,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"userName\": \"{{userName2}}\",\r\n    \"jobDescriptionId\": {{jobDescriptionId}},\r\n    \"firstName\": \"{{firstName}}\",\r\n    \"lastName\": \"{{lastName}}\",\r\n    \"middleName\": \"{{middleName}}\",\r\n    \"emailId\": \"{{emailId}}\",\r\n    \"dayOfBirth\": \"{{dayOfBirth}}\"\r\n}",
+					"raw": "{\r\n    \"userName\": \"{{userName}}\",\r\n    \"jobDescriptionId\": {{jobDescriptionId}},\r\n    \"firstName\": \"{{firstName}}\",\r\n    \"lastName\": \"{{lastName}}\",\r\n    \"middleName\": \"{{middleName}}\",\r\n    \"emailId\": \"{{emailId}}\",\r\n    \"dayOfBirth\": \"{{dayOfBirth}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -712,6 +691,19 @@
 		},
 		{
 			"name": "employees from env",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Body is correct\", function () {\r",
+							"    pm.response.to.have.body(\"[]\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},

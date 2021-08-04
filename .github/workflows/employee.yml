@@ -33,6 +33,9 @@ jobs:
         with:
           name: docker-logs
           path: './logs'
+          
+      - name: allure install
+        run: npm install -g newman-reporter-allure
 
       - uses: actions/checkout@master
       - uses: matt-ball/newman-action@master

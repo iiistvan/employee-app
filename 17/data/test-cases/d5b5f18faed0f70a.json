@@ -1,0 +1,73 @@
+{
+  "uid" : "d5b5f18faed0f70a",
+  "name" : "jobdescription from env title",
+  "historyId" : "4692c3f16f7a7118baed07bd700f5329",
+  "time" : {
+    "start" : 1628115655690,
+    "stop" : 1628115655744,
+    "duration" : 54
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/jobdescriptions/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"title\": \"Future Brand Planner\",\r\n    \"description\": \"Regional\",\r\n    \"addedAt\": \"2021-08-04T22:20:55.698Z\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"title\":\"Future Brand Planner\",\"description\":\"Regional\",\"addedAt\":\"2021-08-04T22:20:55.698\",\"id\":1} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/jobdescriptions/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"title\": \"Future Brand Planner\",\r\n    \"description\": \"Regional\",\r\n    \"addedAt\": \"2021-08-04T22:20:55.698Z\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"title\":\"Future Brand Planner\",\"description\":\"Regional\",\"addedAt\":\"2021-08-04T22:20:55.698\",\"id\":1} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628115655741,
+        "stop" : 1628115655741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "114fc8669ed2d3f7",
+      "name" : "pre_request",
+      "source" : "114fc8669ed2d3f7.txt",
+      "type" : "text/plain",
+      "size" : 39
+    }, {
+      "uid" : "e7cd12c9183d7ffc",
+      "name" : "test_scrpt",
+      "source" : "e7cd12c9183d7ffc.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "jobdescriptions/{{jobDescriptionId}}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5b5f18faed0f70a.json",
+  "parameterValues" : [ ]
+}

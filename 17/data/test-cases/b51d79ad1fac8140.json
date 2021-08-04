@@ -1,0 +1,67 @@
+{
+  "uid" : "b51d79ad1fac8140",
+  "name" : "employees from env",
+  "historyId" : "1da9181a861c23f037fb3240f16cfb70",
+  "time" : {
+    "start" : 1628115655657,
+    "stop" : 1628115655686,
+    "duration" : 29
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> [{\"id\":1,\"jobDescription\":{\"title\":\"Internal Communications Manager\",\"description\":\"Chief\",\"addedAt\":\"2021-08-04T22:20:55.313\",\"id\":1},\"userName\":\"Manuela.Beier33\",\"firstName\":\"Sydney\",\"middleName\":\"Russell\",\"lastName\":\"Davis\",\"emailId\":\"Judson.Zieme94@gmail.com\",\"dayOfBirth\":\"2021-08-04\"}] </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> [{\"id\":1,\"jobDescription\":{\"title\":\"Internal Communications Manager\",\"description\":\"Chief\",\"addedAt\":\"2021-08-04T22:20:55.313\",\"id\":1},\"userName\":\"Manuela.Beier33\",\"firstName\":\"Sydney\",\"middleName\":\"Russell\",\"lastName\":\"Davis\",\"emailId\":\"Judson.Zieme94@gmail.com\",\"dayOfBirth\":\"2021-08-04\"}] </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628115655680,
+        "stop" : 1628115655680,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "605a7eb0f4c16578",
+      "name" : "test_scrpt",
+      "source" : "605a7eb0f4c16578.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "employees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b51d79ad1fac8140.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "bdb7c07e76c7bd60",
+  "name" : "employees from env",
+  "historyId" : "e441494b011e9e3652746d77debb6b73",
+  "time" : {
+    "start" : 1628115655519,
+    "stop" : 1628115655624,
+    "duration" : 105
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Manuela.Beier33\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Sydney\",\r\n    \"lastName\": \"Davis\",\r\n    \"middleName\": \"Russell\",\r\n    \"emailId\": \"Judson.Zieme94@gmail.com\",\r\n    \"dayOfBirth\": \"2021-08-04\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"Internal Communications Manager\",\"description\":\"Chief\",\"addedAt\":\"2021-08-04T22:20:55.313\",\"id\":1},\"userName\":\"Manuela.Beier33\",\"firstName\":\"Sydney\",\"middleName\":\"Russell\",\"lastName\":\"Davis\",\"emailId\":\"Judson.Zieme94@gmail.com\",\"dayOfBirth\":\"2021-08-04\"} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Manuela.Beier33\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Sydney\",\r\n    \"lastName\": \"Davis\",\r\n    \"middleName\": \"Russell\",\r\n    \"emailId\": \"Judson.Zieme94@gmail.com\",\r\n    \"dayOfBirth\": \"2021-08-04\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"Internal Communications Manager\",\"description\":\"Chief\",\"addedAt\":\"2021-08-04T22:20:55.313\",\"id\":1},\"userName\":\"Manuela.Beier33\",\"firstName\":\"Sydney\",\"middleName\":\"Russell\",\"lastName\":\"Davis\",\"emailId\":\"Judson.Zieme94@gmail.com\",\"dayOfBirth\":\"2021-08-04\"} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628115655615,
+        "stop" : 1628115655615,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f12d0f21d19f1b1e",
+      "name" : "pre_request",
+      "source" : "f12d0f21d19f1b1e.txt",
+      "type" : "text/plain",
+      "size" : 99
+    }, {
+      "uid" : "ae545d1383590758",
+      "name" : "test_scrpt",
+      "source" : "ae545d1383590758.txt",
+      "type" : "text/plain",
+      "size" : 171
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "employees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdb7c07e76c7bd60.json",
+  "parameterValues" : [ ]
+}

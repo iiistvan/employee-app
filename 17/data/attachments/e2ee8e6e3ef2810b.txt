@@ -1,0 +1,3 @@
+pm.environment.get("employee_id");
+const moment = require('moment');
+pm.environment.set("dayOfBirth", moment().format("YYYY-MM-DD"));

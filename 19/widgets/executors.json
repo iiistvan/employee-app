@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://iiistvan.github.io/employee-app",
+  "buildOrder" : 19,
+  "buildName" : "GitHub Actions Run #1100832708",
+  "buildUrl" : "https://github.com/iiistvan/employee-app/actions/runs/1100832708",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://iiistvan.github.io/employee-app/19/"
+} ]

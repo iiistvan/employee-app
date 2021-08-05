@@ -1,0 +1,3 @@
+pm.test("Body is correct", function () {
+    pm.response.to.have.body("[]");
+});

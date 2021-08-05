@@ -1,0 +1,73 @@
+{
+  "uid" : "2e4b787d219f18dd",
+  "name" : "jobdescription from env title",
+  "historyId" : "aa673fa1723d902dd93cb5b0ac8bf1d1",
+  "time" : {
+    "start" : 1628154145540,
+    "stop" : 1628154145615,
+    "duration" : 75
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/jobdescriptions/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"title\": \"Internal Quality Planner\",\r\n    \"description\": \"Human\",\r\n    \"addedAt\": \"2021-08-05T09:02:25.552Z\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"title\":\"Internal Quality Planner\",\"description\":\"Human\",\"addedAt\":\"2021-08-05T09:02:25.552\",\"id\":1} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/jobdescriptions/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"title\": \"Internal Quality Planner\",\r\n    \"description\": \"Human\",\r\n    \"addedAt\": \"2021-08-05T09:02:25.552Z\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"title\":\"Internal Quality Planner\",\"description\":\"Human\",\"addedAt\":\"2021-08-05T09:02:25.552\",\"id\":1} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628154145611,
+        "stop" : 1628154145611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "740c67e2f04cd209",
+      "name" : "pre_request",
+      "source" : "740c67e2f04cd209.txt",
+      "type" : "text/plain",
+      "size" : 39
+    }, {
+      "uid" : "dbfc2ca845e56d30",
+      "name" : "test_scrpt",
+      "source" : "dbfc2ca845e56d30.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "jobdescriptions/{{jobDescriptionId}}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e4b787d219f18dd.json",
+  "parameterValues" : [ ]
+}

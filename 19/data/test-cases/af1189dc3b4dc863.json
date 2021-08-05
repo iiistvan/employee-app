@@ -1,0 +1,73 @@
+{
+  "uid" : "af1189dc3b4dc863",
+  "name" : "employees from env middleName",
+  "historyId" : "e2e64d85237ea4323f3fedf6da6a2c70",
+  "time" : {
+    "start" : 1628154145618,
+    "stop" : 1628154145669,
+    "duration" : 51
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/employees/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Carmelo90\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Kole\",\r\n    \"lastName\": \"Nienow\",\r\n    \"middleName\": \"Lawrence\",\r\n    \"emailId\": \"Keith48@yahoo.com\",\r\n    \"dayOfBirth\": \"2021-08-05\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"Internal Quality Planner\",\"description\":\"Human\",\"addedAt\":\"2021-08-05T09:02:25.552\",\"id\":1},\"userName\":\"Carmelo90\",\"firstName\":\"Kole\",\"middleName\":\"Lawrence\",\"lastName\":\"Nienow\",\"emailId\":\"Keith48@yahoo.com\",\"dayOfBirth\":\"2021-08-05\"} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> PUT - http://localhost/employees/1 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Carmelo90\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Kole\",\r\n    \"lastName\": \"Nienow\",\r\n    \"middleName\": \"Lawrence\",\r\n    \"emailId\": \"Keith48@yahoo.com\",\r\n    \"dayOfBirth\": \"2021-08-05\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"Internal Quality Planner\",\"description\":\"Human\",\"addedAt\":\"2021-08-05T09:02:25.552\",\"id\":1},\"userName\":\"Carmelo90\",\"firstName\":\"Kole\",\"middleName\":\"Lawrence\",\"lastName\":\"Nienow\",\"emailId\":\"Keith48@yahoo.com\",\"dayOfBirth\":\"2021-08-05\"} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628154145664,
+        "stop" : 1628154145664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "209e0f5542906381",
+      "name" : "pre_request",
+      "source" : "209e0f5542906381.txt",
+      "type" : "text/plain",
+      "size" : 135
+    }, {
+      "uid" : "b66a43d1b8fa5abc",
+      "name" : "test_scrpt",
+      "source" : "b66a43d1b8fa5abc.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "employees/{{employee_id}}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af1189dc3b4dc863.json",
+  "parameterValues" : [ ]
+}

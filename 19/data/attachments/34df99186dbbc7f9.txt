@@ -1,0 +1,5 @@
+var jsonData = pm.response.json();
+pm.environment.set("jobDescriptionId", jsonData.id);
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});

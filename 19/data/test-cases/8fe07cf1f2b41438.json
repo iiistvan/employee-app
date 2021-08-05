@@ -1,0 +1,73 @@
+{
+  "uid" : "8fe07cf1f2b41438",
+  "name" : "employees from env",
+  "historyId" : "c5e99d555c148447cb1adfd3f91444a7",
+  "time" : {
+    "start" : 1628154145376,
+    "stop" : 1628154145472,
+    "duration" : 96
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Sebastian41\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Hester\",\r\n    \"lastName\": \"Fritsch\",\r\n    \"middleName\": \"Joyce\",\r\n    \"emailId\": \"Gillian59@yahoo.com\",\r\n    \"dayOfBirth\": \"2021-08-05\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"District Division Technician\",\"description\":\"Senior\",\"addedAt\":\"2021-08-05T09:02:25.157\",\"id\":1},\"userName\":\"Sebastian41\",\"firstName\":\"Hester\",\"middleName\":\"Joyce\",\"lastName\":\"Fritsch\",\"emailId\":\"Gillian59@yahoo.com\",\"dayOfBirth\":\"2021-08-05\"} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://localhost/employees </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n    \"userName\": \"Sebastian41\",\r\n    \"jobDescriptionId\": 1,\r\n    \"firstName\": \"Hester\",\r\n    \"lastName\": \"Fritsch\",\r\n    \"middleName\": \"Joyce\",\r\n    \"emailId\": \"Gillian59@yahoo.com\",\r\n    \"dayOfBirth\": \"2021-08-05\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"id\":1,\"jobDescription\":{\"title\":\"District Division Technician\",\"description\":\"Senior\",\"addedAt\":\"2021-08-05T09:02:25.157\",\"id\":1},\"userName\":\"Sebastian41\",\"firstName\":\"Hester\",\"middleName\":\"Joyce\",\"lastName\":\"Fritsch\",\"emailId\":\"Gillian59@yahoo.com\",\"dayOfBirth\":\"2021-08-05\"} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1628154145463,
+        "stop" : 1628154145463,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "65eb8ddafccc1347",
+      "name" : "pre_request",
+      "source" : "65eb8ddafccc1347.txt",
+      "type" : "text/plain",
+      "size" : 99
+    }, {
+      "uid" : "9cbd462cfbd82d95",
+      "name" : "test_scrpt",
+      "source" : "9cbd462cfbd82d95.txt",
+      "type" : "text/plain",
+      "size" : 171
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "employees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fe07cf1f2b41438.json",
+  "parameterValues" : [ ]
+}
